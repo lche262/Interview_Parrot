@@ -13,8 +13,9 @@ import java.util.List;
 public class WebScraper {
         public static void main(String[] args) {
 
-            //Set the path for the chromedriver
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\BA\\Desktop\\chromedriver.exe");
+
+            //Set the path for the chromedriver version 106
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
 
             WebDriver driver = new ChromeDriver();
             driver.navigate().to("https://www.comparetv.com.au/streaming-search-library/?ctvcp=1770");

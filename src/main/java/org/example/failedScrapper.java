@@ -65,11 +65,11 @@ public class failedScrapper {
 
             for (Element e : body.select("div")) {
 
-                e.select(divClassName + " span").remove();
-                String title = e.select(divClassName).text();
-                String link = e.select(divClassName + " a").attr("href");
+               // e.select(divClassName + " span").remove();
+               // String title = e.select(divClassName).text();
+               // String link = e.select(divClassName + " a").attr("href");
 
-                System.out.println(title + " " + link);
+              //  System.out.println(title + " " + link);
 
             }
 
