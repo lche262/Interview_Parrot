@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,7 +13,6 @@ import java.util.List;
 
 public class WebScraper {
         public static void main(String[] args) {
-
 
             //Set the path for the chromedriver version 106
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
@@ -28,7 +28,8 @@ public class WebScraper {
                 else{
                     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
                     WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(By.className("ctv-load-more")));
-                    btn.click();
+                    Actions actions = new Actions(driver);
+                    actions.moveToElement(btn).click().build().perform();
                 }
             };
 

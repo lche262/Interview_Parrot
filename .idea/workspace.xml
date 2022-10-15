@@ -11,7 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4af787ac-e935-4f0c-b0ac-33814b747472" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Parrot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Parrot.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/failedScrapper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665796944036</updated>
       <workItem from="1665796945509" duration="7191000" />
-      <workItem from="1665833245185" duration="11608000" />
+      <workItem from="1665833245185" duration="14092000" />
     </task>
     <servers />
   </component>
